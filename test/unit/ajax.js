@@ -210,6 +210,7 @@ test("jQuery.ajax() - success callbacks (order)", function() {
 	}, 13);
 });
 
+
 test("jQuery.ajax() - error callbacks", function() {
 	expect( 8 );
 	stop();
@@ -240,9 +241,10 @@ test("jQuery.ajax() - error callbacks", function() {
 	});
 });
 
+
 test( "jQuery.ajax - multiple method signatures introduced in 1.5 ( #8107)", function() {
 
-	expect( 4 );
+	expect(  4  );
 
 	stop();
 
